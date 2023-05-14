@@ -2,9 +2,9 @@
 
 ```bash
 # Build the image 
-docker build -t api-persons .
+docker build -t hello-persons .
 
 # Run the Docker container
-docker run -p  5000:5000 api-persons
+docker run -p  5500:5500 hello-persons
 
 ```
